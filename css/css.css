@@ -1,0 +1,397 @@
+@charset "utf-8";
+.lunbo {
+    width: 686px;
+    height: 440px;
+    position: relative;
+    overflow: hidden;
+}
+
+.imgs {
+    position: absolute;
+    top: 0;
+}
+
+.imgs li {
+    float: left;
+    width: 686px;
+    height: 440px;
+}
+
+.btns {
+    position: absolute;
+    width: 100%;
+    bottom: 60px;
+    text-align: center;
+}
+
+.btns li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    margin: 0 2px;
+    cursor: pointer;
+}
+
+.btns .active {
+    background: #fff;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 185px;
+    width: 39px;
+    height: 77px;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    line-height: 77px;
+    background: rgba(0, 0, 0, .4);
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+
+
+.lun {
+    margin-left: 74px;
+    margin-top: 10px;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+}
+
+.img {
+    position: absolute;
+    top: 0;
+}
+
+.img li {
+    float: left;
+    width: 150px;
+    height: 150px;
+}
+.btn {
+    position: absolute;
+    width: 100%;
+    bottom: 5px;
+    text-align: center;
+}
+
+.btn li {
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    margin: 0 2px;
+    cursor: pointer;
+}
+
+.btn .act {
+    background: #F27A02;
+}
+
+.pre, .nex {
+    position: absolute;
+    top: 85px;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    line-height: 20px;
+    background: rgba(0, 0, 0, .4);
+}
+
+.pre {
+    left: 0;
+}
+
+.nex {
+    right: 0;
+}
+
+
+
+
+.luno {
+    width: 660px;
+    height: 370px;
+    position: relative;
+    overflow: hidden;
+}
+.ims {
+    position: absolute;
+    top: 0;
+}
+.ims li {
+    float: left;
+    width: 660px;
+    height: 370px;
+}
+.bts {
+    position: absolute;
+    width: 150%;
+    bottom: 20px;
+    text-align: center;
+}
+.bts li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    margin: 0 2px;
+    cursor: pointer;
+}
+.bts .active {
+    background: #F27A02;
+}
+.prv,.net {
+    position: absolute;
+    top: 150px;
+    width: 39px;
+    height: 77px;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    line-height: 77px;
+    background: rgba(0,0,0,.4);
+}
+.prv {
+    left: 0;
+}
+.net {
+    right: 0;
+}
+
+
+
+
+
+
+.luno1 {
+    width: 747px;
+    height: 316px;
+    position: relative;
+    overflow: hidden;
+}
+.ims1 {
+    position: absolute;
+    top: 0;
+}
+.ims1 li {
+    float: left;
+    width: 747px;
+    height: 316px;
+}
+.bts1 {
+    position: absolute;
+    width: 100%;
+    bottom: 20px;
+    text-align: center;
+}
+.bts1 li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    margin: 0 2px;
+    cursor: pointer;
+}
+.bts1 .active {
+    background: #CC9966;
+}
+.prv1,.net1 {
+    position: absolute;
+    top: 150px;
+    width: 39px;
+    height: 77px;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    line-height: 77px;
+    background: rgba(0,0,0,.4);
+}
+.prv1 {
+    left: 0;
+}
+.net1 {
+    right: 0;
+}
+
+
+
+
+
+
+.lu{
+    width: 380px;
+    height: 230px;
+    position: relative;
+    overflow: hidden;
+}
+.ig {
+    position: absolute;
+    top: 0;
+}
+.ig li {
+    float: left;
+    width: 380px;
+    height: 230px;
+}
+.bn{
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+    text-align: center;
+}
+.bn li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    margin: 0 2px;
+    cursor: pointer;
+}
+.bn .act {
+    background: #F27A02;
+}
+.pe,.nx{
+    position: absolute;
+    top: 100px;
+    width: 35px;
+    height: 35px;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    line-height: 35px;
+    background: rgba(0,0,0,.4);
+}
+.pe{
+    left: 0;
+}
+.nx{
+    right: 0;
+}
+
+
+
+
+.leader .leader1{
+    width: 660px;
+    height: 390px;
+}
+.leader .leader1 .tabs {
+    width: 660px;
+}
+.leader .leader1 .tabs .ul {
+    background: #00AE10;
+    height: 44px;
+}
+.leader .leader1 .tabs .ul li {
+    float: left;
+    width: 100px;
+    background: #F2F2F2;
+    height: 44px;
+    cursor: pointer;
+    line-height: 44px;
+    border: 1px solid #F5F5F5;
+    padding-left: 10px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #000;
+}
+.leader .leader1 .tabs .ul  .active {
+    color: #fff;
+    border: 1px solid #5B492F;
+    background: #00AE10;
+}
+.leader .leader1 .contents div {
+    display: none;
+}
+.leader .leader1 .contents .content {
+    width: 660px;
+    height: 288px;
+    border: 1px solid #F5F5F5;
+    border-top: none;
+}
+.leader .leader1 .contents .show {
+    display: block;
+}
+
+
+
+
+
+.cooperation .leader1{
+    width: 660px;
+    height: 390px;
+}
+.cooperation .leader1 .tab {
+    width: 660px;
+}
+.cooperation .leader1 .tab .ul {
+    background: #00AE10;
+    height: 44px;
+}
+.cooperation .leader1 .tab .ul li {
+    float: left;
+    width: 100px;
+    background: #F2F2F2;
+    height: 44px;
+    cursor: pointer;
+    line-height: 44px;
+    border: 1px solid #F5F5F5;
+    padding-left: 10px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #000;
+}
+.cooperation .leader1 .tab .ul  .active {
+    color: #fff;
+    border: 1px solid #5B492F;
+    background: #00AE10;
+}
+.cooperation .leader1 .contents div {
+    display: none;
+}
+.cooperation .leader1 .contents .content1 {
+    width: 660px;
+    height: 288px;
+    border: 1px solid #F5F5F5;
+    border-top: none;
+}
+.cooperation .leader1 .contents .show {
+    display: block;
+}
+
+.service #a {
+    margin: 0 auto;
+    width: 1000px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+}
+.service #b {
+    width: 1758px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+}
+.service #b li {
+    width: 879px;
+    height: 200px;
+    float: left;
+    font-size: 100px;
+    color: #fff;
+}

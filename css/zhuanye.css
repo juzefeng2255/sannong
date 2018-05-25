@@ -1,0 +1,248 @@
+@charset "utf-8";
+body,
+ul,ol,h1,h2,h3,h4,h5,h6,p,input,select,textarea,dl,dd {
+    margin: 0;
+    padding: 0;
+}
+ul,ol {
+    list-style: none;
+}
+.hide{ display: none;}
+.show{display: block;}
+img {
+    border: none;
+    vertical-align: middle;
+}
+body{
+    overflow-x:hidden;
+    font-size: 12px;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+.clearfix:after,
+.clearfix:before {
+    content: "";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
+.gwidth {
+    width: 1000px;
+    margin: auto;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.top{
+    line-height: 40px;
+    height: 40px;
+    border-bottom: 1px solid #F4F4F4;
+    background: #F4F4F4;
+}
+.top1{
+    height: 40px;
+    position: relative;
+}
+.top1 .lf{
+    width: 186px;
+}
+.top1 .lf ul{
+    position: absolute;
+    left: 0;
+    top: 40px;
+    width: 186px;
+    height: 270px;
+    background: #F3F3F3;
+}
+.top1 ul li:hover{
+    background-color: #fff;
+}
+.top1 .lf ul li{
+    line-height: 30px;
+}
+.top1 .lf ul li img{
+    margin-left: 20px;
+    width: 18px;
+    height: 18px;
+    margin-right: 20px;
+}
+.top1 .lf .ying{
+    background: url("../images/jiao.png") no-repeat right center;
+    padding-right: 12px;
+}
+.top1 .lf .san{
+    margin-left: 26px;
+}
+.top1 .rt ol li{
+    color: #9A9A9A;
+    margin-right: 10px;
+    float: left;
+}
+.top1 .rt ol li a{
+    color: #9A9A9A;
+}
+.qingliang {
+    margin-top: 36px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.qingliang h1{
+    width: 109px;
+    height: 34px;
+    float: left;
+}
+.qingliang .lf {
+    margin-left: 10px;
+    width: 657px;
+    height: 40px;
+}
+
+.qingliang .lf .zg {
+    margin-right: 12px;
+    width: 60px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #F3F3F3;
+    border-radius: 5px;
+}
+
+.qingliang .lf #qi {
+    outline: none;
+    width: 140px;
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #F3F3F3;
+    border-radius: 5px;
+}
+.qingliang .biao{
+    width: 420px;
+    height: 40px;
+}
+.qingliang .biao .shu{
+    outline: none;
+    width: 198px;
+   text-indent: 1em;
+    height: 38px;
+    border:1px solid #F3F3F3;
+    border-radius: 5px 0 0 5px;
+}
+.qingliang .biao #gq{
+    outline: none;
+    vertical-align: bottom;
+    width: 140px;
+    margin-left: -5px;
+    height: 40px;
+    border:1px solid #F3F3F3;
+    border-radius: 0px ;
+}
+.qingliang .biao .oop img{
+    margin-top: -4px;
+    margin-left: -5px;
+}
+.qingliang .ipo{
+    height: 40px;
+}
+.qingliang .ipo .ioo{
+    width: 36px;
+    height: 36px;
+    background: url("../images/dian.png") no-repeat;
+}
+.qingliang .ipo .p{
+    margin-top: -2px;
+    margin-left: 6px;
+    height: 40px;
+    line-height: 20px;
+    display: inline-block;
+}
+.qingliang .ipo .p .ddd{
+    font-weight: bold;
+}
+.suo{
+    margin-bottom: 20px;
+    margin-left: 384px;
+    margin-top: 30px;
+    height: 20px;
+}
+.suo ul li{
+    margin-right: 11px;
+    float: left;
+}
+.suo ul .act{
+    font-weight: bold;
+}
+.nav{
+    line-height: 50px;
+    height: 50px;
+    background: #00B60B;
+}
+.nav ul{
+    display: flex;
+}
+.nav ul li{
+    fiex:1;
+    margin: auto;
+}
+.nav ul .act{
+    margin-right: 0;
+}
+.nav ul li a{
+    color:#fff;
+}
+
+.xieshou1 img{
+    margin-top: 12px;
+    width: 1000px;
+    height: 70px;
+}
+
+.xieshou2 img{
+
+    width: 1000px;
+    height: 70px;
+}
+
+.footer{
+    margin-top: 20px;
+    height: 268px;
+    background: #F2F2F2;
+}
+.footer .guanyu{
+    line-height: 40px;
+    height: 40px;
+    background: #00B60B;
+}
+.footer .guanyu .guan ul{
+    margin-left: 264px;
+}
+.footer .guanyu .guan ul li{
+    margin-left: 6px;
+    float: left;
+}
+.footer .guanyu .guan ul li a,span{
+    color:#fff;
+}
+.footer .add{
+    margin-top: 36px;
+}
+.footer .add .ere img{
+    margin-right: 67px;
+    width: 151px;
+    padding-left: 260px;
+    height: 151px;
+}
+.footer .add ol li{
+    line-height: 30px;
+}
